@@ -2,7 +2,7 @@
  Testing the user authentication in Postman.
 
 ## Node js commands
-Certificate that all the folders and files are downloaded or copied in your project.
+Check first that all the folders and files are downloaded or copied in your project.
 ### Search folder
 - cd backend
 ### Start project
@@ -30,7 +30,7 @@ To sign in Postman, you need create or log your account to open this app, also n
 
 To start test your project, you should create a new tab to send a request according with corresponding method. Notice that below the URL field there are seven tabs. Click on tab 'Body', select the option 'raw' and then select the JSON language to request the data. 
 
-Requesting the corresponding data, before you need to check the database connection. In this project we are using Postgre SQL, a liitle more different from MySQL we are already used to, but with the same SQL syntax. If you already did the connection, can test your project without difficulties.
+Requesting the corresponding data, you need to check the database connection before. In this project we are using Postgre SQL, a liitle more different from MySQL we are already used to, but with the same SQL syntax. If you already did the connection, can test your project without difficulties.
 
 However, we are requesting the data in JSON, so type a corresponding variable and the corresponding value in this way: {"email": "example@gmail.com", "password": "examplepassword"}. Click on button SEND to request the data and wait the server response.
 
