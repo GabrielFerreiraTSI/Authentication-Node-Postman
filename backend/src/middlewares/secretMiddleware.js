@@ -17,3 +17,8 @@ const validatePassword = (req, res, next) => {
     }
     next();
 }
+
+module.exports = {
+    validateEmail, 
+    validatePassword
+}
